@@ -19,7 +19,10 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(fontFamily: "googlesans"),
       home: Home(),
-      routes: {},
+      routes: {
+        "/home":(context)=>Home(),
+
+      },
     );
   }
 }
