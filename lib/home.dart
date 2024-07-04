@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_first/routes/drawer.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -17,7 +18,7 @@ class Home extends StatelessWidget {
             Container(
               margin: EdgeInsets.only(right: 15),
               child: CircleAvatar(
-                backgroundImage: AssetImage("assets/images/ali.HEIC"),
+                backgroundImage: AssetImage("assets/images/logo.HEIC"),
               ),
             ),
           ],
@@ -25,6 +26,7 @@ class Home extends StatelessWidget {
           shadowColor: Colors.blueGrey,
           foregroundColor: Colors.white,
         ),
+      drawer: NavBar(),
       );
   }
 }
