@@ -1,5 +1,10 @@
 import "package:flutter/material.dart";
+import "package:flutter_first/about.dart";
+import "package:flutter_first/contact.dart";
 import "package:flutter_first/home.dart";
+import "package:flutter_first/photo.dart";
+import "package:flutter_first/projects.dart";
+import "package:flutter_first/skills.dart";
 
 void main() {
   runApp(MyApp());
@@ -21,7 +26,11 @@ class _MyAppState extends State<MyApp> {
       home: Home(),
       routes: {
         "/home":(context)=>Home(),
-
+        "/about":(context)=>About(),
+        "/contact":(context)=>Contact(),
+        "/photo":(context)=>Photo(),
+        "/projects":(context)=>Projects(),
+        "/skills":(context)=>Skills(),
       },
     );
   }
