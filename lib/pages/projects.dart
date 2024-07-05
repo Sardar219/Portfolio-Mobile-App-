@@ -27,7 +27,229 @@ class Projects extends StatelessWidget {
         foregroundColor: Colors.white,
       ),
       drawer: NavBar(),
-      body: Center(child: Text("Projects"),),
+      body: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: ListView(
+          children: [
+            Row(
+              children: [
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project1.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Portfolio\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project2.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Login Form\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+              ],
+            ),
+            Row(
+              children: [
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project3.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "S.Hossaini Decoration\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project4.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Guess Number\nThis is my Guessing Number Game project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+              ],
+            ),
+            Row(
+              children: [
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project5.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Portfolio\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project6.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "Login Form\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+              ],
+            ),
+            Row(
+              children: [
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project4.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "S.Hossaini Decoration\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+                Expanded(
+                    flex: 50,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.grey[350]),
+                      padding: EdgeInsets.all(3),
+                      margin: EdgeInsets.all(5),
+                      child: Column(
+                        children: [
+                          Image.asset(
+                            "assets/images/project3.png",
+                            fit: BoxFit.cover,
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            "G\nThis is my portfolio project that I do it with HTML, CSS, Bootstrap and javascript",
+                            textAlign: TextAlign.center,
+                          ),
+                          SizedBox(
+                            height: 15,
+                          )
+                        ],
+                      ),
+                    )),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
