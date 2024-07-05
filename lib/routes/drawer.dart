@@ -98,7 +98,7 @@ class NavBar extends StatelessWidget {
                 ),
                 iconColor: Colors.grey[500],
                 onTap: () {
-                  Navigator.pushNamed(context, "./projects");
+                  Navigator.pushNamed(context, "/projects");
                 },
               ),
               ListTile(

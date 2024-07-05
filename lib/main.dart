@@ -1,10 +1,10 @@
 import "package:flutter/material.dart";
-import "package:flutter_first/about.dart";
-import "package:flutter_first/contact.dart";
-import "package:flutter_first/home.dart";
-import "package:flutter_first/photo.dart";
-import "package:flutter_first/projects.dart";
-import "package:flutter_first/skills.dart";
+import "package:flutter_first/pages/about.dart";
+import "package:flutter_first/pages/contact.dart";
+import "package:flutter_first/pages/home.dart";
+import "package:flutter_first/pages/photo.dart";
+import "package:flutter_first/pages/projects.dart";
+import "package:flutter_first/pages/skills.dart";
 
 void main() {
   runApp(MyApp());
