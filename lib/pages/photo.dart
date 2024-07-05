@@ -27,7 +27,74 @@ class Photo extends StatelessWidget {
         foregroundColor: Colors.white,
       ),
       drawer: NavBar(),
-      body: Center(child: Text("Photo"),),
+      body: ListView(
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar9.jpg",
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar1.HEIC",
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar7.jpg",
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar5.jpg",
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Expanded(
+                child: Column(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar3.jpg",
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar4.HEIC",
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar8.jpg",
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(2.0),
+                      child: Image.asset(
+                        "assets/images/sardar9.jpg",
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
